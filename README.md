@@ -32,7 +32,7 @@ In this document I've tried to compile the list of differences and similarities 
 | userland plugins | [basic](https://github.com/Microsoft/TypeScript/issues/6508), not effecting emitting yet (planned) | no |
 | programmatic hooking | architecture prepared, work in progress | work in progress |
 | documentation and resources | <ul><li>very good docs</li><li>many books</li><li>videos</li><li>e-learning resources</li></ul> | <ul><li>incomplete, often vague docs</li><ul> |
-| error quality | good | good in some, vague in other cases |
+| error quality | good | great ([since 0.66](https://medium.com/flow-type/better-flow-error-messages-for-the-javascript-ecosystem-73b6da948ae2)) |
 | transparency | meeting notes, leadership reasoning and roadmap happens mostly publicly | low transparency, roadmap developed behind closed doors |
 | commercial support | no | no |
 | nominal and structural typing | [structural](https://www.typescriptlang.org/docs/handbook/type-compatibility.html) | mostly [structural](https://flow.org/en/docs/lang/nominal-structural/), nominal for [classes](https://flow.org/en/docs/lang/nominal-structural/#toc-classes-are-nominally-typed) and [imported opaque type aliases](https://flow.org/en/docs/types/opaque-types/#toc-outside-the-defining-file) |
